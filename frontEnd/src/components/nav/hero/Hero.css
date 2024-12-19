@@ -1,0 +1,36 @@
+.container-hero {
+  position: relative;
+  /* background-color: var(--bg-black); */
+  height: 100%;
+  color: var(--snow);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-bottom: 3%; */
+  .salutations {
+    margin-left: 5%;
+    h1 {
+      font-family: Roboto;
+      font-size: 4.8rem;
+      font-weight: 800;
+      color: var(--snow);
+    }
+    h3 {
+      font-size: 2rem;
+      letter-spacing: 5px;
+      word-spacing: 10px;
+      color: var(--snow);
+    }
+  }
+  .image {
+    height: 610px;
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 1;
+    img {
+      height: 100%;
+    }
+  }
+}

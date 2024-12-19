@@ -1,0 +1,63 @@
+.container-aboutPage {
+  margin-top: 50px;
+  width: 100%;
+  height: 100vh;
+  padding: 5%;
+  /* background-color: azure; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .prof-image-div {
+    width: 30vw;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .about-me {
+    width: 60vw;
+    height: 100%;
+    padding: 3%;
+    font-size: 1.2rem;
+    margin-left: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    h2 {
+      font-size: 2rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      word-spacing: 10px;
+      /* padding: 1%; */
+      color: black;
+      span {
+        font-weight: 800;
+        color: #e54b4b;
+      }
+    }
+    p {
+      font-family: "Poppins";
+      font-size: smaller;
+      font-weight: 300;
+      color: #767676;
+    }
+    ul {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    ul li {
+      list-style: none;
+      font-style: italic;
+      font-weight: 500;
+    }
+    button {
+      /* margin: 20px; */
+      cursor: pointer;
+    }
+  }
+}
