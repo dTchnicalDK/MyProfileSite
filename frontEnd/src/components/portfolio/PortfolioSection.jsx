@@ -6,19 +6,20 @@ import SkillGraph from "./skillGraph/SkillGraph";
 function PortfolioSection() {
   return (
     <div className="portfolio-div">
+      {/* ----------------------------my works section---------------------- */}
       <div className="my-works">
-        {" "}
         <h1>
-          {" "}
           My Selected <span>works</span>
         </h1>
         <div className="cards">
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+          <Card
+            title={"my whiteboardApp"}
+            src={"https://dtchnicaldk.github.io/whiteboardApp/"}
+          />
+          <Card
+            title={"my whiteboardApp"}
+            src={"https://dtchnicaldk.github.io/whiteboardApp/"}
+          />
         </div>
       </div>
 

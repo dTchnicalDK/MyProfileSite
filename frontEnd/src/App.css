@@ -8,11 +8,11 @@
   --red-font: #e54b4b;
   --dark-text: #545353;
 }
-* {
+/* * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-}
+} */
 a {
   list-style: none;
   text-decoration: none;
@@ -36,15 +36,15 @@ a {
 }
 
 body {
+  width: 100%;
+  box-sizing: border-box;
   color: var(--dark-text);
   font-family: "Poppins", serif;
   font-weight: 400;
-  width: 100vw;
 }
 .main-container {
-  /* width: 100vw; */
+  width: 100%;
   .container-landing {
-    /* background-color: var(--bg-black); */
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -54,5 +54,12 @@ body {
     .hero {
       height: 100vh;
     }
+  }
+  .my-works-div {
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
   }
 }

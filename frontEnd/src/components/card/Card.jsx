@@ -1,19 +1,22 @@
 import React from "react";
 import "./Card.css";
 
-function Card() {
+function Card({ title, src }) {
   return (
     <div className="card">
-      <div className="card-details">
-        <h3>title</h3>
-        <p>
-          descriptions: Lorem ipsum dolor sit amet, consectetur adipisicing
-          elit. Vel corrupti aut, obcaecati quasi fugiat, nesciunt soluta beatae
-          error nulla eos architecto ipsa cupiditate atque, dolorum quod eveniet
-          maiores autem rerum.
-        </p>
-        <button className="solid-button">preview</button>
-      </div>
+      <a href={`${src}`} target="_blank">
+        <span>Click here</span>
+        <div className="my-works-iframe">
+          <h2>{title}</h2>
+          {/* ------------------website inside a iframe------------------------- */}
+          <iframe
+            src={`${src}`}
+            frameborder="0"
+            title="whiteboardApp"
+            style={{ width: "100%", height: "100%" }}
+          ></iframe>
+        </div>
+      </a>
     </div>
   );
 }

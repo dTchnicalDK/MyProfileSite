@@ -5,6 +5,8 @@ import Hero from "./components/hero/Hero";
 import About from "./components/about/About";
 import PortfolioSection from "./components/portfolio/PortfolioSection";
 import ParticleBg from "./components/particle/ParticleBg";
+import MyWorksIframe from "./components/MyWorksIframe/MyWorksIframe";
+import ContactMe from "./components/contactMe/ContactMe";
 
 function App() {
   return (
@@ -19,12 +21,10 @@ function App() {
             <Hero />
           </div>
         </div>
-
         {/* --------------about page start------------------------- */}
-        {/* <div className="container-aboutPage"> */}
         <About />
         <PortfolioSection />
-        {/* </div> */}
+        <ContactMe />
       </div>
     </>
   );
