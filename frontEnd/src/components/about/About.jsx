@@ -62,9 +62,12 @@ function About() {
               </li>
             </div>
           </ul>
-          <a href="">
+          <a href="/resume.pdf" target="_blank">
             <button className="solid-button"> Download CV </button>
           </a>
+          {/* <a href="">
+            <button className="solid-button"> Download CV </button>
+          </a> */}
         </div>
       </div>
     </>
