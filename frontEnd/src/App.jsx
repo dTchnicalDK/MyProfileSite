@@ -4,12 +4,14 @@ import Nav from "./components/nav/Nav";
 import Hero from "./components/hero/Hero";
 import About from "./components/about/About";
 import PortfolioSection from "./components/portfolio/PortfolioSection";
+import ParticleBg from "./components/particle/ParticleBg";
 
 function App() {
   return (
     <>
       <div className="main-container">
         <div className="container-landing">
+          <ParticleBg />
           <div className="nav">
             <Nav />
           </div>
