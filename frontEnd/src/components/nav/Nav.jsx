@@ -2,8 +2,11 @@ import React from "react";
 import "./Nav.css";
 
 function Nav() {
+  const applyFixNav = () => {
+    console.log("scrolled");
+  };
   return (
-    <div className="container-nav">
+    <div className="container-nav " onScroll={applyFixNav}>
       <div className="logo">
         <img src="" alt="LOGO" />
       </div>

@@ -1,7 +1,9 @@
 .container-hero {
   position: relative;
-  /* background-color: var(--bg-black); */
   height: 100%;
+  width: 100%;
+  overflow: hidden;
+
   color: var(--snow);
   display: flex;
   align-items: center;
@@ -24,6 +26,7 @@
   }
   .image {
     height: 610px;
+    /* width: 100%; */
     overflow: hidden;
     position: absolute;
     right: 0px;

@@ -1,12 +1,17 @@
 .container-nav {
   width: 100vw;
+  height: 50px;
+  padding-top: 15px;
   color: var(--snow);
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  position: relative;
-  /* z-index: 10; */
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+
   .logo {
     width: 20%;
     height: 50px;
@@ -25,5 +30,14 @@
   }
   .nav a:hover {
     color: orange;
+  }
+}
+.container-nav.fixed {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: snow;
+  a {
+    color: black;
   }
 }

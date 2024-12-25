@@ -1,0 +1,49 @@
+.card {
+  max-height: 350px;
+  max-width: 350px;
+  min-width: 250px;
+  min-height: 250px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px gold;
+  background-color: rgba(0, 0, 0, 1);
+  color: var(--snow);
+
+  .card-details {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    top: 5%;
+    left: 0px;
+
+    transition: all;
+    transition-duration: 2s;
+    opacity: 0;
+
+    h3 {
+      letter-spacing: 5px;
+      text-transform: capitalize;
+      text-align: center;
+      color: var(--red-font);
+      font-weight: 800;
+      background-color: var(--snow);
+    }
+    p {
+      font-weight: 200;
+      margin-bottom: 20px;
+      padding: 20px;
+    }
+    button {
+      position: absolute;
+      right: 10px;
+      bottom: 15px;
+      padding: 5px 20px;
+    }
+    button:hover {
+      color: var(--snow);
+    }
+  }
+}
+.card:hover .card-details {
+  color: var(--snow);
+  opacity: 1;
+}

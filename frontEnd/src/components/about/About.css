@@ -54,6 +54,9 @@
       list-style: none;
       font-style: italic;
       font-weight: 500;
+      span {
+        margin-right: 10px;
+      }
     }
     button {
       /* margin: 20px; */

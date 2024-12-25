@@ -1,17 +1,16 @@
 import { useState } from "react";
 import "./App.css";
 import Nav from "./components/nav/Nav";
-import Hero from "./components/nav/hero/Hero";
+import Hero from "./components/hero/Hero";
 import About from "./components/about/About";
+import PortfolioSection from "./components/portfolio/PortfolioSection";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <div className="main-container">
         <div className="container-landing">
-          <div className="nav-bar">
+          <div className="nav">
             <Nav />
           </div>
           <div className="hero">
@@ -22,6 +21,7 @@ function App() {
         {/* --------------about page start------------------------- */}
         {/* <div className="container-aboutPage"> */}
         <About />
+        <PortfolioSection />
         {/* </div> */}
       </div>
     </>

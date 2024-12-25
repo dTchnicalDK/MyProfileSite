@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import { FaAngleDoubleRight } from "react-icons/fa";
 
 function About() {
   return (
@@ -14,22 +15,51 @@ function About() {
           </h2>
           <p>
             Hello! I'm Dharmendara Chauhan. I'm a web developer, and I'm very
-            passionate and dedicated to my work. With 20 years experience as a
-            professional web developer, I have acquired the skills and knowledge
-            necessary to make your project a success. I enjoy every step of the
-            design process, from discussion and collaboration.
+            passionate and dedicated to my work. I have acquired the skills and
+            knowledge necessary to make your project a success. I enjoy every
+            step of the design process, from discussion and collaboration.
           </p>
           <ul className="skill">
             <div className="left-list">
               {" "}
-              <li>Web Development</li>
-              <li>Front End Development</li>
-              <li>Back End development</li>
+              <li>
+                <span className="arrow">
+                  <FaAngleDoubleRight />
+                </span>
+                Web Development
+              </li>
+              <li>
+                <span className="arrow">
+                  <FaAngleDoubleRight />
+                </span>
+                Front End Development
+              </li>
+              <li>
+                <span className="arrow">
+                  <FaAngleDoubleRight />
+                </span>
+                Back End development
+              </li>
             </div>
             <div className="right-list">
-              <li>html, css, javascript, React, Nodejs,</li>
-              <li> git , git-hub, vercel, cloudinary</li>
-              <li> photoshop, Adobe Xd, Express</li>
+              <li>
+                <span className="arrow">
+                  <FaAngleDoubleRight />
+                </span>
+                html, css, javascript, React, Nodejs,
+              </li>
+              <li>
+                <span className="arrow">
+                  <FaAngleDoubleRight />
+                </span>{" "}
+                git , git-hub, vercel, cloudinary
+              </li>
+              <li>
+                <span className="arrow">
+                  <FaAngleDoubleRight />
+                </span>{" "}
+                photoshop, Adobe Xd, Express
+              </li>
             </div>
           </ul>
           <a href="">
