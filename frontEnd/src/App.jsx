@@ -7,12 +7,15 @@ import PortfolioSection from "./components/portfolio/PortfolioSection";
 import ParticleBg from "./components/particle/ParticleBg";
 import MyWorksIframe from "./components/MyWorksIframe/MyWorksIframe";
 import ContactMe from "./components/contactMe/ContactMe";
+import Back2home from "./components/back2home/Back2home";
+import Footer from "./components/footer/Footer";
+import AnimeCursor from "./components/animatedCursor/AnimeCursor";
 
 function App() {
   return (
     <>
       <div className="main-container">
-        <div className="container-landing">
+        <div className="container-landing" id="home">
           <ParticleBg />
           <div className="nav">
             <Nav />
@@ -25,6 +28,13 @@ function App() {
         <About />
         <PortfolioSection />
         <ContactMe />
+        <a href="#home">
+          <Back2home />
+        </a>
+        <Footer />
+        {/* <Cursor /> */}
+        {/* <AnimatedCursor /> */}
+        <AnimeCursor />
       </div>
     </>
   );

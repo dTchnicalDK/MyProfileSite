@@ -1,43 +1,60 @@
+.container-nav.sticky {
+  height: 70px;
+
+  background-color: var(--snow);
+  position: fixed;
+  display: flex;
+  align-items: center;
+  transition: all 500ms ease-in-out;
+  .nav ul li {
+    color: black;
+  }
+}
 .container-nav {
   width: 100vw;
-  height: 50px;
+  height: 7%;
   padding-top: 15px;
   color: var(--snow);
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   position: absolute;
   top: 0px;
   left: 0px;
-  z-index: 10;
+  z-index: 5;
 
   .logo {
-    width: 20%;
-    height: 50px;
-    border: 2px solid black;
-    margin-top: 5px;
+    width: 80px;
+    height: 80px;
+    padding-top: 5px;
+    img {
+      width: 95%;
+    }
   }
   .nav {
     width: 60%;
+    z-index: 7;
   }
   .nav ul {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     font-size: 1.2rem;
     color: var(--snow);
+    padding: 15px;
+    z-index: 10;
+    transition: all;
+    transition-duration: 0.5s;
+    li {
+      padding: 2px 10px;
+    }
   }
+
   .nav a:hover {
-    color: orange;
-  }
-}
-.container-nav.fixed {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  background-color: snow;
-  a {
-    color: black;
+    color: var(--red-font);
+    border-radius: 15px;
+    border: 1px solid var(--snow);
   }
 }

@@ -8,7 +8,7 @@ function MyWorksIframe({ title, src }) {
       <iframe
         // src="https://dtchnicaldk.github.io/whiteboardApp/"
         src={`${src}`}
-        frameborder="0"
+        // frameBorder="0"
         title="whiteboardApp"
         style={{ width: "100%", height: "100%" }}
       ></iframe>

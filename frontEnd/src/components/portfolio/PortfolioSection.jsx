@@ -5,7 +5,7 @@ import SkillGraph from "./skillGraph/SkillGraph";
 
 function PortfolioSection() {
   return (
-    <div className="portfolio-div">
+    <div className="portfolio-div" id="portfolio">
       {/* ----------------------------my works section---------------------- */}
       <div className="my-works">
         <h1>

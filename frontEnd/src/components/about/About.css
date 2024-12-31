@@ -1,15 +1,15 @@
 .container-aboutPage {
   margin-top: 50px;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   padding: 5%;
-  /* background-color: azure; */
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   .prof-image-div {
     width: 30vw;
+    margin-top: auto;
 
     img {
       width: 100%;
@@ -32,8 +32,8 @@
       text-transform: uppercase;
       letter-spacing: 2px;
       word-spacing: 10px;
-      /* padding: 1%; */
       color: black;
+
       span {
         font-weight: 800;
         color: #e54b4b;
@@ -44,6 +44,11 @@
       font-size: smaller;
       font-weight: 300;
       color: #767676;
+      margin-bottom: 1%;
+
+      .span-aboutMe {
+        padding: 50px;
+      }
     }
     ul {
       display: flex;

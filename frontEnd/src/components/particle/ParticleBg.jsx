@@ -25,7 +25,7 @@ const ParticleBg = () => {
   }, []);
 
   const particlesLoaded = (container) => {
-    console.log(container);
+    // console.log(container);
   };
 
   const options = useMemo(

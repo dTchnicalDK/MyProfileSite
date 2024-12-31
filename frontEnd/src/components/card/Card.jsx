@@ -11,7 +11,6 @@ function Card({ title, src }) {
           {/* ------------------website inside a iframe------------------------- */}
           <iframe
             src={`${src}`}
-            frameborder="0"
             title="whiteboardApp"
             style={{ width: "100%", height: "100%" }}
           ></iframe>

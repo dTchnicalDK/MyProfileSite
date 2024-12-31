@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaMapLocationDot } from "react-icons/fa6";
 import { IoCallSharp } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
@@ -7,7 +7,7 @@ import "./ContactMe.css";
 
 function ContactMe() {
   return (
-    <div className="contact-me-div">
+    <div className="contact-me-div" id="contact">
       <div className="title-div">
         <h4>Feel free to contact me anytimes </h4>
         <h2>Get in Touch</h2>
@@ -15,9 +15,11 @@ function ContactMe() {
       <div className="contact-lower-divs">
         <div className="message-me-div">
           <h3>Message Me</h3>
-          <input type="text" placeholder="Name" />
-          <input type="text" placeholder="Email" />
-          <input type="text" placeholder="Subject" />
+          <small>temporately not working</small>
+
+          <input type="text" placeholder="Name" id="name" />
+          <input type="text" placeholder="Email" id="email" />
+          <input type="text" placeholder="Subject" id="text" />
           <textarea
             name="message"
             id="message"
