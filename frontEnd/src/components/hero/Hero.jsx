@@ -6,8 +6,6 @@ function Hero() {
   return (
     <div className="container-hero">
       <div className="salutations">
-        {/* <h1>Dharmendra Chauhan</h1>
-        <h3>Web & Mobile App Developer</h3> */}
         <IsDeveloper />
       </div>
       <div className="image">

@@ -7,7 +7,8 @@ function About() {
     <>
       <div className="container-aboutPage" id="about">
         <div className="prof-image-div">
-          <img src="./src\assets\images\profile-image.jpg" alt="my photo" />
+          {/* <img src="./src\assets\images\profile-image.jpg" alt="my photo" /> */}
+          <img src="/images/profile-image.jpg" alt="my photo" />
         </div>
         <div className="about-me">
           <h2>
