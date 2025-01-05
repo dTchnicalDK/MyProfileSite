@@ -3,11 +3,11 @@ import { TbArrowBackUp } from "react-icons/tb";
 import "./Back2home.css";
 
 function Back2home() {
-  const [isVisible, setIsVisible] = useState("back2home-div visible");
+  const [isVisible, setIsVisible] = useState("back2home-div ");
 
   window.addEventListener("scroll", () => {
     // scrollY > 100 ? "back2home-div visible" : "back2home-div";
-    if (scrollY > 200) {
+    if (scrollY > 500) {
       setIsVisible("back2home-div visible");
     } else {
       setIsVisible("back2home-div");

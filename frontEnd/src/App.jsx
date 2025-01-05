@@ -10,6 +10,7 @@ import ContactMe from "./components/contactMe/ContactMe";
 import Back2home from "./components/back2home/Back2home";
 import Footer from "./components/footer/Footer";
 import AnimeCursor from "./components/animatedCursor/AnimeCursor";
+import IsDeveloper from "./components/developer/IsDeveloper";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
         {/* <AnimatedCursor /> */}
         <AnimeCursor />
       </div>
+      <IsDeveloper />
     </>
   );
 }
