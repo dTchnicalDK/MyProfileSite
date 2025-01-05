@@ -11,7 +11,8 @@ function Hero() {
         <IsDeveloper />
       </div>
       <div className="image">
-        <img src="./src\assets\images\photo3.png" alt="image" />
+        {/* <img src="./src\assets\images\photo3.png" alt="image" /> */}
+        <img src="/images/photo3.png" alt="image" />
       </div>
     </div>
   );
