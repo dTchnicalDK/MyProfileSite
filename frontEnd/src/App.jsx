@@ -37,7 +37,6 @@ function App() {
         {/* <AnimatedCursor /> */}
         <AnimeCursor />
       </div>
-      <IsDeveloper />
     </>
   );
 }
