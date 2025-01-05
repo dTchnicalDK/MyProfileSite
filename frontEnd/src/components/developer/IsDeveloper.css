@@ -1,16 +1,31 @@
 .IsDeveloper-container {
-  /* width: 40vw; */
-  width: 100%;
-  /* height: 40vh; */
-  /* background-color: rgba(0, 0, 0, 0.608); */
-  /* margin: 20px; */
-  /* padding: 5%; */
-  /* display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center; */
+  width: 60vw;
   color: white;
+  position: relative;
+}
+#hi-text {
+  margin-left: 20px;
 }
 #text {
   color: var(--red-font);
+}
+#name1 {
+  position: absolute;
+  font-size: 4.5rem;
+  top: -175%;
+  left: 0px;
+  animation-name: leftToRight;
+  animation-duration: 2s;
+  /* transition: a; */
+}
+
+@keyframes leftToRight {
+  from {
+    left: -300px;
+    color: transparent;
+  }
+  to {
+    left: 0px;
+    color: snow;
+  }
 }
