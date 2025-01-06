@@ -17,8 +17,8 @@ function PortfolioSection() {
             src={"https://dtchnicaldk.github.io/whiteboardApp/"}
           />
           <Card
-            title={"my whiteboardApp"}
-            src={"https://dtchnicaldk.github.io/whiteboardApp/"}
+            title={"my note app"}
+            src={"https://note2-frontend.vercel.app/"}
           />
         </div>
       </div>
