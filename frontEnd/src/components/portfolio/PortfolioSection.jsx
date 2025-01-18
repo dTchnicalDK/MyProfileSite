@@ -34,10 +34,11 @@ function PortfolioSection() {
           </p>
         </div>
         <div className="skill-graphs">
-          <SkillGraph skill="HTML" />
-          <SkillGraph skill="CSS" />
-          <SkillGraph skill="REACT" />
-          <SkillGraph skill="EXP" />
+          <SkillGraph skill="HTML" percent="95" />
+          <SkillGraph skill="CSS" percent="80" />
+          <SkillGraph skill="REACT" percent="90" />
+          <SkillGraph skill="EXPRESS" percent="85" />
+          <SkillGraph skill="NODE JS" percent="50" />
         </div>
       </div>
       <div className="avail-freelance">

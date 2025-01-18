@@ -6,7 +6,7 @@
   transform: rotate(90deg);
   position: fixed;
   top: 50vh;
-  right: -20px;
+  right: -50px;
   transition: translateX 800ms;
   visibility: hidden;
 }
