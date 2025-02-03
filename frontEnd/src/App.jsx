@@ -11,32 +11,23 @@ import Back2home from "./components/back2home/Back2home";
 import Footer from "./components/footer/Footer";
 import AnimeCursor from "./components/animatedCursor/AnimeCursor";
 import IsDeveloper from "./components/developer/IsDeveloper";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Login from "./pages/loginpage/Login";
+import Signup from "./pages/signup/Signup";
+import Landingpage from "./pages/landingPage/Landingpage";
 
 function App() {
   return (
     <>
-      <div className="main-container">
-        <div className="container-landing" id="home">
-          <ParticleBg />
-          <div className="nav">
-            <Nav />
-          </div>
-          <div className="hero">
-            <Hero />
-          </div>
-        </div>
-        {/* --------------about page start------------------------- */}
-        <About />
-        <PortfolioSection />
-        <ContactMe />
-        <a href="#home">
-          <Back2home />
-        </a>
-        <Footer />
-        {/* <Cursor /> */}
-        {/* <AnimatedCursor /> */}
-        <AnimeCursor />
-      </div>
+      {/* // creating router to route different pages */}
+      <BrowserRouter>
+        <Routes>
+          {/* <Route path="/" element={<Landingpage />} /> */}
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
+          <Route path="/" element={<Landingpage />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
